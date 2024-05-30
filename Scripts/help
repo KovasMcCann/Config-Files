@@ -1,0 +1,2 @@
+manero
+curl -s "https://min-api.cryptocompare.com/data/price?fsym=XMR&tsyms=USD" | sed 's/[^0-9.]*//g'
